@@ -89,7 +89,7 @@ export const questionsInfo = [
       "While a bachelor's degree in education is the minimum level of education you'll need to become a teacher, you have many options as to what and where you'll teach. You can specialize in special education, secondary education, middle-level education, or early childhood education."
   },
   {
-    question: "Does E-study offer free courses?",
+    question: "Does e-study offer free courses?",
     answer: "No, it doesn't offer free courses."
   },
   {
