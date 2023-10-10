@@ -4,7 +4,7 @@ import {
   BiShoppingBag,
   BiMapPin,
   BiPhoneCall,
-  BiMailSend
+  BiMailSend,
 } from "react-icons/bi";
 import {
   FaStar,
@@ -13,14 +13,15 @@ import {
   FaTwitter,
   FaPinterest,
   FaGooglePlusG,
-  FaInstagram
+  FaInstagram,
+  FaLinkedin,
 } from "react-icons/fa";
 import { GiOpenBook } from "react-icons/gi";
 import { MdOutlineQuestionAnswer } from "react-icons/md";
 import {
   BsFillPlayCircleFill,
   BsCalendarCheck,
-  BsFillSquareFill
+  BsFillSquareFill,
 } from "react-icons/bs";
 import { RiUser3Line, RiMailSendLine } from "react-icons/ri";
 import { GoPrimitiveDot } from "react-icons/go";
@@ -61,6 +62,8 @@ const Icons = ({ name, className }) => {
       return <FaGooglePlusG className={className} />;
     case "instagram":
       return <FaInstagram className={className} />;
+    case "linkedin":
+      return <FaLinkedin className={className} />;
     case "location":
       return <BiMapPin className={className} />;
     case "phone":

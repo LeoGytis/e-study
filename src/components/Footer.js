@@ -6,7 +6,7 @@ const Footer = () => {
     <Container>
       <Row>
         <Column>
-          <Logo src={`./images/logo/logo.png`} alt="" />
+          <Logo src={`./images/logo/logo_white.png`} alt="" />
           <MediaText>
             Please contact me for more information about my work and
             opportunites. Your can reach me on social media!
@@ -17,6 +17,7 @@ const Footer = () => {
             <SocialMediaIcon name={"pinterest"} />
             <SocialMediaIcon name={"google"} />
             <SocialMediaIcon name={"instagram"} />
+            <SocialMediaIcon name={"linkedin"} />
           </MediaIcons>
         </Column>
         <Column>
