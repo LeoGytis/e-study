@@ -6,6 +6,7 @@ import { useState } from "react";
 import LogoWhite from "../logo/logo_white.png";
 import LogoBlack from "../logo/logo_black.png";
 
+
 const Navbar = () => {
   const [showNavBar, setShowNavBar] = useState(false);
   const [logo, setLogo] = useState(LogoWhite);

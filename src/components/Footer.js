@@ -6,7 +6,7 @@ const Footer = () => {
     <Container>
       <Row>
         <Column>
-          <Logo src={`./images/logo/educavo_logo.png`} alt="" />
+          <Logo src={`./images/logo/logo.png`} alt="" />
           <MediaText>
             Please contact me for more information about my work and
             opportunites. Your can reach me on social media!
