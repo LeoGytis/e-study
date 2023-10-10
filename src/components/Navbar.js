@@ -12,7 +12,6 @@ const Navbar = () => {
   const [logo, setLogo] = useState(LogoWhite);
 
   const changeBackground = () => {
-    console.log("window -->", window.scrollY);
     if (window.scrollY >= 150) {
       setShowNavBar(true);
       setLogo(LogoBlack);

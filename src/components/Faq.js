@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 import Icons from "../utils/Icons";
 import { offerInfo, questionsInfo } from "../utils/texts";
 
@@ -21,6 +21,7 @@ const Faq = () => {
         </LeftSide>
         <RightSide>
           <PlayIcon name={"play"} />
+          <AroundCircle />
         </RightSide>
       </Content>
     </Container>
@@ -93,6 +94,9 @@ const Icon = styled(Icons)`
 `;
 
 const RightSide = styled.div`
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 600px;
   width: 50%;
   background-image: url("./images/photos/030.jpg");
@@ -102,8 +106,34 @@ const RightSide = styled.div`
 `;
 
 const PlayIcon = styled(Icons)`
-  font-size: 50px;
-  margin-right: 8px;
+  position: absolute;
+  font-size: 80px;
   color: #fff;
-  background: #ff5421;
+`;
+
+const circleMove = keyframes`
+  0% {
+    width: 40px;
+    height: 40px;
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    height: 200px;
+    width: 200px;
+    opacity: 0;
+  }
+`;
+
+const AroundCircle = styled.div`
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 50%;
+  animation-name: ${circleMove};
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 `;
