@@ -20,8 +20,10 @@ const Faq = () => {
           </QuestionsContainer>
         </LeftSide>
         <RightSide>
-          <PlayIcon name={"play"} />
-          <AroundCircle />
+          <PlayIconLink href="https://www.youtube.com/watch?v=4I1kGIC41lg&pp=ygUQb25saW5lIGVkdWNhdGlvbg%3D%3D&ab_channel=StudyportalsHQ">
+            <PlayIcon name={"play"} />
+            <AroundCircle />
+          </PlayIconLink>
         </RightSide>
       </Content>
     </Container>
@@ -103,6 +105,14 @@ const RightSide = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+`;
+
+const PlayIconLink = styled.a`
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
 `;
 
 const PlayIcon = styled(Icons)`
