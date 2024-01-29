@@ -28,7 +28,6 @@ const Container = styled.div`
 	background-size: auto;
 	background-size: cover;
 	color: #fff;
-	/* "homepage": "https://leogytis.github.io/e-study", */
 `;
 
 const Row = styled.div`
