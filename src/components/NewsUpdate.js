@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import Icons from "../utils/Icons";
 import { newsInfo } from "../utils/texts";
+import { device } from "../utils/device";
 
 const NewsUpdate = () => {
 	return (
@@ -54,7 +55,9 @@ const Container = styled.div`
 	align-items: center;
 	padding-top: 100px;
 	padding-bottom: 100px;
-	/* background-color: goldenrod; */
+	@media ${device.mobile} {
+		padding: 40px 10px;
+	}
 `;
 
 const Header1 = styled.div`
@@ -64,6 +67,9 @@ const Header1 = styled.div`
 	color: #ff5421;
 	text-transform: uppercase;
 	margin-bottom: 10px;
+	@media ${device.mobile} {
+		font-size: 16px;
+	}
 `;
 
 const Header2 = styled.div`
@@ -72,6 +78,11 @@ const Header2 = styled.div`
 	font-weight: 800;
 	color: #101010;
 	margin-bottom: 26px;
+	@media ${device.mobile} {
+		font-size: 28px;
+		line-height: 24px;
+		text-align: center;
+	}
 `;
 
 const Row = styled.div`
@@ -81,6 +92,9 @@ const Row = styled.div`
 	gap: 30px;
 	padding: 20px;
 	box-shadow: inset 0 -150px 200px -50px rgba(211, 211, 211, 0.4);
+	@media ${device.tablet} {
+		flex-direction: column;
+	}
 `;
 
 const News = styled.div`
