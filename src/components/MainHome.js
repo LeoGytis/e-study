@@ -38,6 +38,9 @@ const Row = styled.div`
 	align-items: center;
 	text-align: center;
 	padding: 250px 0 200px 0;
+	@media ${device.mobile} {
+		padding: 120px 0 100px 0;
+	}
 `;
 
 const Header1 = styled.div`
@@ -47,11 +50,11 @@ const Header1 = styled.div`
 	color: #ff5421;
 	margin-bottom: 22px;
 	text-transform: uppercase;
-	@media ${device.tablet} {
-		border: 2px solid red;
-	}
 	@media ${device.mobile} {
-		border: 2px solid blue;
+		font-size: 18px;
+	}
+	@media ${device.mobiles} {
+		font-size: 14px;
 	}
 `;
 
@@ -61,6 +64,14 @@ const Header2 = styled.div`
 	line-height: 80px;
 	font-weight: 700;
 	margin-bottom: 65px;
+	@media ${device.mobile} {
+		font-size: 46px;
+		line-height: 46px;
+	}
+	@media ${device.mobiles} {
+		font-size: 32px;
+		line-height: 32px;
+	}
 `;
 
 const Button = styled.button`
