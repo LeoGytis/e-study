@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/e-study/static/css/main.b388663f.css",
-    "main.js": "/e-study/static/js/main.89477631.js",
+    "main.js": "/e-study/static/js/main.cdad2d90.js",
     "static/js/787.4d5c0c07.chunk.js": "/e-study/static/js/787.4d5c0c07.chunk.js",
     "static/media/Nunito-Medium.ttf": "/e-study/static/media/Nunito-Medium.a7c01ee77faba77e24c1.ttf",
     "static/media/Nunito-Light.ttf": "/e-study/static/media/Nunito-Light.0ec468f65958d1263b60.ttf",
@@ -16,11 +16,11 @@
     "static/media/Hamburger.svg": "/e-study/static/media/Hamburger.ea6de6b6fdf0d2855ac0af216d73a327.svg",
     "index.html": "/e-study/index.html",
     "main.b388663f.css.map": "/e-study/static/css/main.b388663f.css.map",
-    "main.89477631.js.map": "/e-study/static/js/main.89477631.js.map",
+    "main.cdad2d90.js.map": "/e-study/static/js/main.cdad2d90.js.map",
     "787.4d5c0c07.chunk.js.map": "/e-study/static/js/787.4d5c0c07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b388663f.css",
-    "static/js/main.89477631.js"
+    "static/js/main.cdad2d90.js"
   ]
 }
