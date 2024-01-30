@@ -37,6 +37,7 @@ const Container = styled.div`
 	display: flex;
 	align-items: center;
 	padding: 100px 0;
+	max-width: 100%;
 	@media ${device.tablet} {
 		padding: 0;
 	}

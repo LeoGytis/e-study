@@ -47,10 +47,10 @@ const Container = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
+	max-width: 100%;
 	padding: 100px 0;
 	@media ${device.mobile} {
-		padding: 40px 10px;
+		padding: 40px 0px;
 	}
 `;
 

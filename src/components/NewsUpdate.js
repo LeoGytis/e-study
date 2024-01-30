@@ -53,6 +53,7 @@ const Container = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	max-width: 100%;
 	padding-top: 100px;
 	padding-bottom: 100px;
 	@media ${device.mobile} {

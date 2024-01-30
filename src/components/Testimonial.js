@@ -27,12 +27,13 @@ const Container = styled.div`
 	flex-direction: column;
 	align-items: center;
 	padding: 100px 0;
+	max-width: 100%;
 	background-image: url("./images/photos/040.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	@media ${device.mobile} {
-		padding: 100px 0 40px 0;
+		padding: 100px 0 60px 0;
 	}
 `;
 

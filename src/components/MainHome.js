@@ -22,7 +22,7 @@ const Container = styled.div`
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
+	max-width: 100%;
 	background-image: url("./images/photos/001.jpg");
 	background-position: center;
 	background-repeat: no-repeat;

@@ -21,7 +21,7 @@ export default Offer;
 
 const Container = styled.div`
 	display: flex;
-	width: 100%;
+	max-width: 100%;
 	max-height: 600px;
 	padding-bottom: 100px;
 	@media ${device.tablet} {

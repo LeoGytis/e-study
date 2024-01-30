@@ -37,6 +37,11 @@ const Row = styled.div`
 	@media ${device.mobile} {
 		flex-direction: column;
 		gap: 10px;
+		padding: 30px 60px;
+		border-radius: 0;
+	}
+	@media ${device.mobile} {
+		padding: 30px 0;
 	}
 `;
 
