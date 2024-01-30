@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Tabs from "./Tabs";
+import { device } from "../utils/device";
 
 const MainHome = () => {
 	return (
@@ -46,6 +47,12 @@ const Header1 = styled.div`
 	color: #ff5421;
 	margin-bottom: 22px;
 	text-transform: uppercase;
+	@media ${device.tablet} {
+		border: 2px solid red;
+	}
+	@media ${device.mobile} {
+		border: 2px solid blue;
+	}
 `;
 
 const Header2 = styled.div`
