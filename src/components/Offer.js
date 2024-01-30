@@ -24,6 +24,9 @@ const Container = styled.div`
 	width: 100%;
 	max-height: 600px;
 	padding-bottom: 100px;
+	@media ${device.tablet} {
+		padding-bottom: 80px;
+	}
 `;
 
 const LeftSide = styled.div`
