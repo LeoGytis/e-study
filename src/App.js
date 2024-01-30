@@ -10,20 +10,21 @@ import Offer from "./components/Offer";
 import Testimonial from "./components/Testimonial";
 
 function App() {
-  return (
-    <>
-      <Navbar />
-      <MainHome />
-      <Categories />
-      <Courses />
-      <Offer />
-      <Faq />
-      <Testimonial />
-      <NewsUpdate />
-      <NewsLetter />
-      <Footer />
-    </>
-  );
+	return (
+		<>
+			{/* add "/" in the end of url  when running localhost*/}
+			<Navbar />
+			<MainHome />
+			<Categories />
+			<Courses />
+			<Offer />
+			<Faq />
+			<Testimonial />
+			<NewsUpdate />
+			<NewsLetter />
+			<Footer />
+		</>
+	);
 }
 
 export default App;
