@@ -62,7 +62,6 @@ const Container = styled.div`
 	align-items: center;
 	background-color: #f9f8f8;
 	max-width: 100%;
-	border: 2px solid red;
 	padding: 100px 0;
 	@media ${device.mobile} {
 		padding: 40px 10px;
