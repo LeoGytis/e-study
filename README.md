@@ -6,8 +6,8 @@ Learning-oriented landing page that showcases my use of various React libraries.
 		
 ## Technologies Used
 
-• React 
-• TypeScript 
-• Styled-Components 
-• React-Icons 
-• React-Scroll
+- React 
+- TypeScript 
+- Styled-Components 
+- React-Icons 
+- React-Scroll
