@@ -1,6 +1,6 @@
-import styled from "styled-components";
-import Icons from "../utils/Icons";
-import { device } from "../utils/device";
+import styled from 'styled-components';
+import Icons from '../utils/Icons';
+import {device} from '../utils/device';
 
 const Footer = () => {
 	return (
@@ -13,51 +13,51 @@ const Footer = () => {
 						opportunites. Your can reach me on social media!
 					</MediaText>
 					<MediaIcons>
-						<SocialMediaIcon name={"facebook"} />
-						<SocialMediaIcon name={"twitter"} />
-						<SocialMediaIcon name={"pinterest"} />
-						<SocialMediaIcon name={"google"} />
-						<SocialMediaIcon name={"instagram"} />
-						<SocialMediaIcon name={"linkedin"} />
+						<SocialMediaIcon name={'facebook'} />
+						<SocialMediaIcon name={'twitter'} />
+						<SocialMediaIcon name={'pinterest'} />
+						<SocialMediaIcon name={'google'} />
+						<SocialMediaIcon name={'instagram'} />
+						<SocialMediaIcon name={'linkedin'} />
 					</MediaIcons>
 				</Column>
 				<Column>
 					<Header>Address</Header>
 					<AddressRow>
 						<AddressLine>
-							<AddressIcon name={"location"} />
+							<AddressIcon name={'location'} />
 							Maironio g. 24, Vilnius
 						</AddressLine>
-						<AddressLine background-color={"red"}>
-							<AddressIcon name={"phone"} />
-							+370 682 12888
+						<AddressLine background-color={'red'}>
+							<AddressIcon name={'phone'} />
+							+370 666 88888
 						</AddressLine>
 						<AddressLine>
-							<AddressIcon name={"mail"} />
-							leogytis@gmail.com
+							<AddressIcon name={'mail'} />
+							gytis@e-study.com
 						</AddressLine>
 					</AddressRow>
 				</Column>
 				<Column>
 					<Header>Courses</Header>
 					<Course>
-						<SquareIcon name={"square"} />
+						<SquareIcon name={'square'} />
 						Courses
 					</Course>
 					<Course>
-						<SquareIcon name={"square"} />
+						<SquareIcon name={'square'} />
 						Course Two
 					</Course>
 					<Course>
-						<SquareIcon name={"square"} />
+						<SquareIcon name={'square'} />
 						Single Course
 					</Course>
 					<Course href="#">
-						<SquareIcon name={"square"} />
+						<SquareIcon name={'square'} />
 						Profile
 					</Course>
 					<Course>
-						<SquareIcon name={"square"} />
+						<SquareIcon name={'square'} />
 						Login/Register
 					</Course>
 				</Column>
@@ -70,7 +70,7 @@ const Footer = () => {
 								High School Program Starting Soon 2024
 							</PostHeader>
 							<PostDate>
-								<CalendarIcon name={"date"} />
+								<CalendarIcon name={'date'} />
 								October 15, 2020
 							</PostDate>
 						</PostContent>
@@ -82,7 +82,7 @@ const Footer = () => {
 								Shutdown Of Schools Extended To Aug 31
 							</PostHeader>
 							<PostDate>
-								<CalendarIcon name={"date"} />
+								<CalendarIcon name={'date'} />
 								March 25, 2023
 							</PostDate>
 						</PostContent>
@@ -95,9 +95,9 @@ const Footer = () => {
 					</Credentials>
 					<CreditsIcons>
 						Event
-						<DotIcon name={"dot"} />
+						<DotIcon name={'dot'} />
 						Blog
-						<DotIcon name={"dot"} />
+						<DotIcon name={'dot'} />
 						Contact
 					</CreditsIcons>
 				</BottomContainer>
