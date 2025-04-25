@@ -3,6 +3,8 @@ import Icons from '../utils/Icons';
 import {device} from '../utils/device';
 
 const Footer = () => {
+	const currentYear = new Date().getFullYear();
+
 	return (
 		<Container>
 			<Row>
@@ -90,7 +92,7 @@ const Footer = () => {
 				</Column>
 				<BottomContainer>
 					<Credentials>
-						© 2023 All Rights Reserved. Designed By Gytis
+						© {currentYear} All Rights Reserved. Designed By Gytis
 						Leonavicius
 					</Credentials>
 					<CreditsIcons>
