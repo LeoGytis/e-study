@@ -32,11 +32,11 @@ const Footer = () => {
 						</AddressLine>
 						<AddressLine background-color={'red'}>
 							<AddressIcon name={'phone'} />
-							+370 666 88888
+							+370 600 88800
 						</AddressLine>
 						<AddressLine>
 							<AddressIcon name={'mail'} />
-							gytis@e-study.com
+							info@e-study.com
 						</AddressLine>
 					</AddressRow>
 				</Column>
